@@ -1,12 +1,10 @@
 "use client";
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import { FaBug } from "react-icons/fa";
 import classNames from "classnames";
-
-
+import { Inter } from 'next/font/google';
 
 const NavBar = () => {
 	//this hook is dependent on browser APIs, and we can only access browser APIs in client components
